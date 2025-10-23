@@ -1,0 +1,78 @@
+{
+  "active": false,
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "iCloud Calendar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-10-23T05:17:52.639Z",
+  "id": "FMvkuPvyJfq9yuD8",
+  "isArchived": false,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "任务规划",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "0a35d0a4-5bf3-4278-835a-70faa42f95c4",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "5d5d54df-ac6f-46f7-a73f-8629044733e6",
+      "name": "Webhook",
+      "webhookId": "0a35d0a4-5bf3-4278-835a-70faa42f95c4"
+    },
+    {
+      "parameters": {
+        "operation": "createEvent",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-icloud.iCloudCalendar",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "aff4721e-528e-42f3-84f6-b56fc5bd3646",
+      "name": "iCloud Calendar",
+      "credentials": {
+        "iCloudApi": {
+          "id": "u75sB7xVXoTjAHd8",
+          "name": "iCloud CalDAV account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "shared": [
+    {
+      "createdAt": "2025-10-23T05:17:52.643Z",
+      "updatedAt": "2025-10-23T05:17:52.643Z",
+      "role": "workflow:owner",
+      "workflowId": "FMvkuPvyJfq9yuD8",
+      "projectId": "vNOv1BBGv08mh2Q3"
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-10-23T06:32:08.000Z",
+  "versionId": "1c8a5e5b-f3de-487b-aff8-5c1f20a27f5e"
+}
