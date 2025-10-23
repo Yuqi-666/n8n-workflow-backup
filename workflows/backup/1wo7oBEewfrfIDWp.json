@@ -262,7 +262,7 @@
   "meta": {
     "templateCredsSetupCompleted": true
   },
-  "name": "My workflow",
+  "name": "n8n-backup",
   "nodes": [
     {
       "parameters": {},
@@ -853,6 +853,6 @@
     }
   ],
   "triggerCount": 1,
-  "updatedAt": "2025-10-23T05:14:31.000Z",
-  "versionId": "de091092-afc3-49f7-8274-af06b57d7aad"
+  "updatedAt": "2025-10-23T05:15:49.000Z",
+  "versionId": "d6c3d94e-30b6-41e2-8d11-1f1d535b4cab"
 }
